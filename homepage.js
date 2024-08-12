@@ -43,11 +43,11 @@
         if(z <= 0){
             alert('Numero player insufficente');
         }else{
-            window.location.href = 'index.html';
+            window.location.href = 'game.html';
         localStorage.setItem('sharedValue', z);
-        window.location.href = 'index.html';
+        window.location.href = 'game.html';
         localStorage.setItem('Category', i);
-        window.location.href = 'index.html';
+        window.location.href = 'game.html';
         };
         
     });
