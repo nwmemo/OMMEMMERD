@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    display: 0;
+}
+
+html{
+    height: 100%;
+    font-family: 'Poppins', serif;
+}
+
+body{
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20%;
+}
+
+.options{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 100%;
+    gap: 25%;
+
+}
+
+.categ p{
+    display: flex;
+    gap: 2vw;
+    width: 200%;
+}
+
+#cat{min-width: 4vw;}
+
+#error{
+    visibility: hidden;
+    color: red;
+    transition: 0.75s ease-out;
+}
+
+#selected{
+    color: rgb(69, 128, 73);
+    font-weight: 600;
+}
+
+#home{
+    border: 2px solid rgb(69, 128, 73);
+    background-color: rgba(250, 235, 215, 0);
+    color: rgb(69, 128, 73);
+    transition: 0.2s ease-in-out;
+}
+
+#home:active{
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+}
+
+
+#btn{
+    min-width: 200px;
+    min-height: 55px;
+    max-width: 220px;
+    border-radius: 25px;
+    background-color: rgba(69, 128, 73, 0);
+    border: 2px solid rgb(69, 128, 73);
+    font-size: larger;
+    font-weight: 500;
+    color: rgb(69, 128, 73);
+    transition: 0.2s ease-in-out;
+}
+
+#btn:active{
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+}
+
+.content p{
+    font-size: large;
+    font-weight: 400;
+}

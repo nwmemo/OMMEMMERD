@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    height: 100%;
+    font-family: 'Poppins', serif;
+}
+
+body{
+    height: inherit;
+}
+
+.top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5vh;
+    margin-top: 15%;
+}
+
+.content button{
+    min-width: 200px;
+    min-height: 50px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid rgb(69, 128, 73) ;
+    border-radius: 15px;
+    font-size: 100%;
+    color: rgb(69, 128, 73);
+    font-weight: bolder;
+    transition: 0.2s ease-in-out;
+}
+
+.content button:active{
+    background-color: rgb(69, 128, 73);
+    color: #ffffff;
+    width: 220px;
+}
+
+.numberOfPlayers{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    gap: 6vw;
+    margin-bottom: 20%;
+}
+
+.numberOfPlayers p{
+    font-size: 20px;
+}
+
+.numberOfPlayers button{
+    height: 30px;
+    width: 30px;
+    background-color: #ffffff00;
+    border: 2px solid rgb(69, 128, 73);
+    border-radius: 8px;
+    transition: 0.25s ease-in-out;
+}
+
+.numberOfPlayers button:active
+{
+    background-color: rgb(69, 128, 73);
+    color: #ffffff;
+    height: 32px;
+    width: 32px;
+}
+
+
+#color{color: rgb(69, 128, 73);}
+
+h4{
+    text-decoration: underline rgb(69, 128, 73);
+}
+
