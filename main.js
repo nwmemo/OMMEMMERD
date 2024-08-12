@@ -111,7 +111,7 @@ btn.addEventListener('click', function(){
 
 
 homeButton.addEventListener('click', function() {
-    window.location.href = 'homepage.html';
+    window.location.href = 'index.html';
 })
 
 
