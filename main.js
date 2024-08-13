@@ -83,8 +83,8 @@ btn.addEventListener('click', function(){
                 display.innerText = word;
                 
             }else {
-                let coin =  Math.floor(Math.random() * 2 + 1);
-                if (coin == 1){
+                let coin =  Math.random();
+                if (coin < 0.5){
                     display.innerText = word;
 
                 }else{
