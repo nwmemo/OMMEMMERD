@@ -15,12 +15,35 @@ const oggetti = ["Telefono", "Computer", "Tavolo", "Sedia", "Lampada","Libro", "
     "Attore", "Scrittore", "Pilota", "Poliziotto", "Pompiere",
     "Contabile", "Barista", "Commesso", "Giardiniere", "Veterinario"];
   
-  const luoghi = ["Roma", "Milano", "Napoli", "Torino", "Palermo",
-    "Genova", "Bologna", "Firenze", "Bari", "Catania",
-    "Venezia", "Verona", "Messina", "Padova", "Trieste",
-    "Taranto", "Brescia", "Parma", "Prato", "Modena",
-    "Reggio Calabria", "Reggio Emilia", "Perugia", "Livorno", "Ravenna"];
-
+    const luoghi = [
+        "Cucina",
+        "Bagno",
+        "Salotto",
+        "Camera da letto",
+        "Garage",
+        "Giardino",
+        "Studio",
+        "Soffitta",
+        "Cantina",
+        "Balcone",
+        "Piscina",
+        "Biblioteca",
+        "Sala da pranzo",
+        "Ufficio",
+        "Sala giochi",
+        "Serra",
+        "Campo da tennis",
+        "Spiaggia",
+        "Nave dei pirati",
+        "Foresta incantata",
+        "Caverna",
+        "Villaggio medievale",
+        "Castello",
+        "Laboratorio scientifico",
+        "Spazio profondo"
+    ];
+    
+    
 let displayedCat = document.getElementById('selected');
 const cat = localStorage.getItem('Category');
 let homeButton = document.getElementById('home');
